@@ -1,0 +1,36 @@
+First set up a new conda environment
+
+Python ENV addons
+  colorama (printing colored output)
+    pip install colorama
+
+  black (Reformatting code)
+    pip install black
+
+  pycodestyle (Code style checking)
+    pip install pycodestyle
+
+  pyflakes (Code style checking)
+    pip install pyflakes
+
+  pylint (code analysis)
+    pip install pylint
+
+  pyls (Code completion)
+    python -m pip install 'python-language-server[all]'
+
+pip install colorama black pycodestyle pyflakes pylint 'python-language-server[all]'
+
+Start atom from terminal / powershell using the 'atom' keyword
+
+atom addons:
+  python-black
+    https://atom.io/packages/python-black
+  ide-python
+    https://atom.io/packages/ide-python
+  atom-ide-ui
+    https://atom.io/packages/atom-ide-ui
+  atom-ide-debugger-python
+    https://atom.io/packages/atom-ide-debugger-python
+  todo-show
+    https://atom.io/packages/todo-show

@@ -1,0 +1,28 @@
+Terminology:
+------------
+Motherboard
+  - This links all of the separate parts together
+
+CPU: Central Processing Unit (Measured in GHz)
+  - Does all of the computation
+  - Very good at doing one thing at a time
+
+RAM: Random Access Memory (Measured in Gigabytes (GB))
+  - Short term memory
+  - Fast
+  - Cleared every time the computer restarts
+  - Amounts vary 2GB - 128GB
+    - Special Motherboards are required to have higher amounts of RAM
+
+HDD: Hard Disk Drive (Measured in Gigabytes (GB), Terabytes (TB) or Petabytes (PB))
+  - Persistent Memory
+  - Slower (But this is changing with new hardware on motherboards)
+  - Generally when programming files are loaded from the HDD into RAM
+    - If files are too big to fit into RAM small sections of the files are loaded at a time
+
+GPU: Graphical Processing Unit (Measured in GHz)
+  - Also a processor
+  - Very good at doing lots of things at the same time
+    - There is normally a single dataset in which all elements will undergo the same operation
+    - Eg: Matrix multiplications
+  - Contains its own RAM called VRAM (between 1GB and 24GB currently)

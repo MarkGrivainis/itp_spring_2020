@@ -1,0 +1,38 @@
+Measurements:
+
+Bit: Zero or One (on/off)
+Byte: 8 bits
+Kilobyte (KB): 1024 Bytes
+Megabyte (MB): 1024 Kilobytes
+Gigabyte (GB): 1024 Megabytes
+etc...
+
+Generally one character is 8 bits which is 1 byte (This depends on the standard, eg: ASCII or UTF-8)
+
+Binary go up in powers of 2 as there are two options, zero or one.
+256 different characters can be stored using a single byte.
+
+  8|  7|  6|  5|  4|  3|  2|  1|
+---|---|---|---|---|---|---|---|
+128| 64| 32| 16|  8|  4|  2|  1|
+
+Counting in Binary
+0000 = 0
+0001 = 1
+0010 = 2
+0011 = 3
+0100 = 4
+etc...
+
+|Decimal|  Binary   | Character|
+--------------------------------
+|    58 | 0011 1010 |        : |
+|    65 | 0100 0001 |        A |
+|    97 | 0110 0001 |        a |
+|    51 | 0011 0011 |        3 |
+
+
+Full list:
+https://www.sciencebuddies.org/science-fair-projects/references/table-of-8-bit-ascii-character-codes
+
+Approximately how big would a file with 1000 characters in it be?

@@ -1,0 +1,12 @@
+minesweeer.py
+  main(method)
+  game logic
+  game loop
+
+grid.py
+  define a 2d grid
+  get method ( x y)
+  set method (x y)
+
+board.py <- grid.py
+  mine specfic
